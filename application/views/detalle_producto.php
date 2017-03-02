@@ -14,11 +14,19 @@
 					<b>Drecipción:</b><br>
 					<?=$detalles->descripcion?><br>
 					<?=$detalles->anuncio?><br><br>
-					<b>Stock: </b><?=$detalles->stock?> disponibles
+					<b>Stock: </b>
+					
+					<?php if ($detalles->stock==0){
+							echo '<a style="color:#CB4335;"><b>No hay stock</b></a>';
+							}
+							else{
+							echo $detalles->stock.' disponibles';
+							}
+							?>		
 				</div>
 				</div>
 				<div class="panel-footer">
-					<button type="button" class="btn btn-success"> <span class="glyphicon glyphicon-shopping-cart"></span><b>&nbsp;&nbsp;Añadir a la cesta</b></button>
+					<a class="btn btn-success" href="<?=site_url().'/Inicio/addProducto/'.$detalles->id?>"><span class="glyphicon glyphicon-shopping-cart"></span><b>&nbsp;&nbsp;Comprar</b></a>
 					<div class="top-right"><h4>Precio: <b><?=$detalles->pvp?> €</h4></b></div>
 				</div>
 			</div>

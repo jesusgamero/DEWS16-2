@@ -17,7 +17,6 @@ class Producto extends CI_Model
      */
     public function verCategorias()
     {
-        
         $query = $this->db->query('select * from categoria where mostrar=1');
         return $query->result();
     }
@@ -70,17 +69,7 @@ class Producto extends CI_Model
         return $procat->result_array();
     }
     
-	 /**
-     * Saca los nombres de todas las categorias
-     * @return type
-     */
-	public function listaCategorias()
-    {
-        $query  = "select * from categoria where mostrar=1";
-        $procat = $this->db->query($query);
-        return $procat->result_array();
-    }
-	
+    
     /**
      * Devuelve los productos detacados siempre y cuando las fechas coincidan
      * @return type
@@ -103,41 +92,60 @@ class Producto extends CI_Model
         $npro  = $this->db->query($query);
         return $npro->num_rows();
     }
-	
-	 /**
+    
+    /**
      * Añade un producto a la base de datos con los datos recibidos
      * @param type $datos
      */
-	 public function insertaProducto($datos){
-        $this->db->insert('producto', $datos); 
-     }
-	 
-	 /**
+    public function insertaProducto($datos)
+    {
+        $this->db->insert('producto', $datos);
+    }
+    
+    /**
+     * Recibe una id de categoria y devuelve un array con todos los productos de esa categoria
+     * @param type $categoria_id
+     * @return type
+     */
+    public function verProductos($id)
+    {
+        $query  = "select * from producto where categoria_id= " . $id . " and mostrar=1";
+        $procat = $this->db->query($query);
+        return $procat->result();
+    }
+    
+    /**
      * Recibe un array con los datos de una categoria, los inserta y devuelve la id que se ha autogenerado
      * @param type $cat
      * @return type id de la categoria que se ha generado
      */
-     public function insertaCategoria($cat){
-         $this->db->insert('categoria', $cat);
-        return $this->db->insert_id();
-     }
-	 
-	 public function productosAgregador($desde,$por_pagina)
+    public function insertaCategoria($cat)
     {
-        $resultados=$this->productosDestacados($desde,$por_pagina);
-        $dest=array();
-		
-        foreach($resultados as $resultado)
-        {
-            $dest[]=array(
-                'nombre'=>$resultado->nombre, 
-                'descripcion'=>$resultado->descripcion,
-                'precio'=>$resultado->pvp,
-                'img'=>base_url().$resultado->imagen,
-                'url'=>site_url('compras/agregar/'.$resultado->id)
-            );
-        }
-        return $dest;              
+        $this->db->insert('categoria', $cat);
+        return $this->db->insert_id();
     }
+    
+    /**
+     * Devuelve el stock de un producto
+     * @param Int $id ID del producto
+     * @return Int Número del stock
+     */
+    public function verStock($id)
+    {
+        $query = $this->db->query("SELECT stock FROM producto WHERE id = $id; ");
+        
+        return $query->row()->stock;
+        
+    }
+	
+	public function Total()
+	{
+		return $this->db->count_all('producto');
+	}
+	
+	public function Lista($offset, $limit)
+	{
+		$this->db->limit($limit, $offset);
+		return $this->db->get('producto')->result_array();
+	}
 }
-

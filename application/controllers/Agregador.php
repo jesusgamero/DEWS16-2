@@ -2,34 +2,34 @@
 
 require_once(APPPATH.'/libraries/JSON_WebServer_Controller.php');
 
-class Server extends JSON_WebServer_Controller {
-    
+class Agregador extends JSON_WebServer_Controller {
     public function __construct() {
         parent::__construct();
         
-        $this->RegisterFunction('Total()', 'Devuelve el número de elementos que tenemos en la tienda');
+        // Registramos las funciones
+        $this->RegisterFunction('Total()', 'Devuelve el número de productos que tenemos en la tienda');
         $this->RegisterFunction('Lista(offset, limit)', 
                 'Devuelve una lista de productos de tamaño máximo [limit] comenzando desde la posición desde [offset]');
     }
     public function Total()
     {
-        return $this->mproducto->numeroDestacados();
+        return $this->mproducto->Total();
     }
     
     public function Lista($offset, $limit)
     {
-        return $this->mproducto->productosAgregador($offset,$limit);
-    }
-
-    public function Prueba($offset, $limit)
-    {
-        echo "<pre>";
-        print_r($this->tienda->Lista((int)$offset,(int) $limit));
-        echo "</pre>";
-    }
-    
-    public function Producto($producto_id)
-    {
-        echo "<h1>Compra de producto ....</h1><p>Ha decidido comprar el producto $producto_id</p>";
+        $lista_productos = [];
+        $productos = $this->mproducto->Lista($offset, $limit);
+        foreach ($productos as $lista)
+        {
+            $lista_productos[] = array(
+                'nombre' => $lista['nombre'],
+                'descripcion' => $lista['descripcion'],
+                'precio' => $lista['pvp'],
+                'img' => base_url("asset/img/productos/$lista[imagen]"),
+                'url' => base_url("index.php/Inicio/addProducto/$lista[id]")
+                );
+        }
+        return $lista_productos;
     }
 }

@@ -19,14 +19,14 @@
 				</tr>
 				<?php foreach ($pedidos as $pedido): ?>
 				<tr>
-				<td align="center"><b><?=$pedido->id?></b></td>
-				<td align="center"><b><a href="<?=site_url().'/Inicio/detallePedido/'.$pedido->id?>"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;&nbsp;Ver detalles</b></a></td>
-				<td align="center"><?=$this->mpedido->nombreEstado($pedido->estado)?></td>
-				<td align="center"><?=$pedido->direccion?></td>
-				<td align="center"><?=$this->musuario->nombreProvincia($pedido->provincia)?></td>
-				<td align="center"><?=$pedido->cp?></td>
-				<td align="center"><?=$pedido->fecha_pedido?></td>
-				<td align="center">
+				<td style="vertical-align: middle;" align="center"><b><?=$pedido->id?></b></td>
+				<td style="vertical-align: middle;" align="center"><b><a href="<?=site_url().'/Inicio/detallePedido/'.$pedido->id?>"><span class="glyphicon glyphicon-eye-open"></span>&nbsp;&nbsp;&nbsp;Ver detalles</b></a></td>
+				<td style="vertical-align: middle;" align="center"><?=$this->mpedido->nombreEstado($pedido->estado)?></td>
+				<td style="vertical-align: middle;" align="center"><?=$pedido->direccion?></td>
+				<td style="vertical-align: middle;" align="center"><?=$this->musuario->nombreProvincia($pedido->provincia)?></td>
+				<td style="vertical-align: middle;" align="center"><?=$pedido->cp?></td>
+				<td style="vertical-align: middle;" align="center"><?=$pedido->fecha_pedido?></td>
+				<td style="vertical-align: middle;" align="center">
 
 				<?php if ($pedido->estado == 'P'):?>
 				
@@ -57,14 +57,14 @@
 				
 				</td>
 				
-				<td align="center"><a href="<?=site_url().'/Inicio/PDFPedido/'.$pedido->id?>"><span style="color:red;" class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;<b>Ver PDF</b></a></td>
+				<td style="vertical-align: middle;" align="center"><a href="<?=site_url().'/Inicio/PDFPedido/'.$pedido->id?>"><span style="color:red;" class="glyphicon glyphicon-file"></span>&nbsp;&nbsp;<b>Ver PDF</b></a></td>
 				</tr>
 				
 				<?php endforeach; ?>
 				
 				</table>
 				<br>
-				<a class="btn btn btn-default" href="<?=site_url().'/Inicio/panelUsuario'?>"><b><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;&nbsp;&nbsp;Volver atrás</b></a></center><br><br>
+				<a class="btn btn btn-default" href="<?=site_url().'/Inicio/cargarVista/panel_usuario'?>"><b><span class="glyphicon glyphicon-chevron-left"></span>&nbsp;&nbsp;&nbsp;Volver atrás</b></a></center><br><br>
 			</div>
 		</div>
 </div>

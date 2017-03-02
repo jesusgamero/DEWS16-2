@@ -22,7 +22,7 @@
 							<label for="clave">Contraseña:</label>
 							<input type="password" id="clave" name="clave" value="<?=set_value('clave')?>" class="form-control" placeholder="Inserte su clave de acceso" required><br>
 							<button class="btn btn-default" type="submit">Iniciar sesión</button>
-							<a style='margin-left: 2em' href="<?=site_url().'/Inicio/verRegistro'?>"></span><b>¿Olvidaste tu contraseña?</b></a></center>
+							<a style='margin-left: 2em' href="<?=site_url().'/Inicio/cargarVista/recuperar_clave'?>"></span><b>¿Olvidaste tu contraseña?</b></a></center>
 						<?php echo form_close() ?>
 						</div>
 				</div>
@@ -33,7 +33,7 @@
 				<h6>Resgistrarte es muy sencillo.</h4>
 				<h6>Solo tienes que pulsar el botón inferior</h4>
 				<h6>y rellenar los datos solicitados</h4><br>
-				<a class="btn btn btn-warning" href="<?=site_url().'/Inicio/verRegistro'?>"></span><b><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;&nbsp;Registrarse</b></a></center><br><br>
+				<a class="btn btn btn-warning" href="<?=site_url().'/Inicio/cargarVista/registro'?>"></span><b><span class="glyphicon glyphicon-edit"></span>&nbsp;&nbsp;&nbsp;Registrarse</b></a></center><br><br>
 				</div>
         </div>
 		</div>

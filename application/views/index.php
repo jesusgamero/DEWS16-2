@@ -34,7 +34,7 @@
 								<ul>
 								
 								<?php if ($this->session->has_userdata('usuario')):?>
-											<li><a href="<?=site_url('Inicio/panelUsuario/')?>">Bienvenido, <?=$this->session->userdata('nombre')?></a> </li>	
+											<li><a href="<?=site_url('Inicio/cargarVista/panel_usuario')?>">Bienvenido, <?=$this->session->userdata('nombre')?></a> </li>	
 											<li><a href="#" data-toggle="modal" data-target="#cerrar"><b>Cerrar sesión</a></b></li>
 
 											  <!-- Modal -->
@@ -58,8 +58,8 @@
 	
 											
 								<?php else:?>
-										<li><?php echo anchor('Inicio/verLogin','Acceder');?></li>
-										<li><?php echo anchor('Inicio/verRegistro','Registrarse');?></li>         
+										<li><?php echo anchor('Inicio//cargarVista/login','Acceder');?></li>
+										<li><?php echo anchor('Inicio/cargarVista/registro','Registrarse');?></li>         
 								 <?php endif?>
 								
 								</ul>
@@ -77,7 +77,7 @@
 										</div>
 										<div class="top-right"><br><br><center>
 										<a href="<?=site_url('Inicio/verCarrito');?>" style="color:white;" href="<?=site_url()?>"><img src="<?=base_url().'asset/'?>img/carrito.png" height="50" width="50">
-										<b>Hay 0 artículos</a></b>
+										<b>Hay <?php echo ($this->carrito->articulos_total());?> artículos</a></b>
 										<br><br><br>
 										</center></div>
 								</div>
@@ -109,6 +109,7 @@
         <hr>
 			<footer><div id="footer"><br>
 			<center>
+			 Localización: <b><?php echo ($pie->ResolveIPResult->City).", ".($pie->ResolveIPResult->Country);?></b><br><br>
 			<p>&copy; Práctica CodeIgniter DWES 2017: <B>Jesús Gamero Méndez</B><br>
 			<img src="<?=base_url().'asset/'?>img/github.png" alt="Smiley face" height="42" width="42">&nbsp;&nbsp;<b>Repositorio GitHub: <a href="https://github.com/jesusgamero/Tienda-CodeIgniter">https://github.com/jesusgamero/Tienda-CodeIgniter</a></b><br><br>
 			</div></footer>

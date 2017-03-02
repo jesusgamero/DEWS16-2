@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+  <categoria>
+    <id>8</id>
+    <nombre>Mascotas</nombre>
+    <descripcion>Disfruta las ofertas de productos de mascotas en nuestros supermercado online.</descripcion>
+    <anuncio/>
+    <mostrar>1</mostrar>
+    <producto>
+      <id>94</id>
+      <categoria_id>7</categoria_id>
+      <nombre>DIA alimento para canarios</nombre>
+      <marca>DIA</marca>
+      <descripcion>bolsa 500 gr</descripcion>
+      <descuento/>
+      <anuncio/>
+      <imagen>68.jpg</imagen>
+      <pvp>0.89</pvp>
+      <iva>10</iva>
+      <stock>32</stock>
+      <mostrar>1</mostrar>
+      <finicio_dest/>
+      <ffin_dest/>
+      <destacado>1</destacado>
+    </producto>
+  </categoria>
+</lista>

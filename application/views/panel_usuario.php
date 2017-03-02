@@ -22,7 +22,7 @@
 				<hr>
 				<li><a href="<?=site_url().'/Inicio/verPedidos/'.$this->session->userdata('id')?>"><b>Ver mis pedidos, cancelarlos y ver sus facturas</b></a></center></li><br>
 				<li><a href="<?=site_url().'/Inicio/editaUsuario/'.$this->session->userdata('usuario')?>"><b>Modificar tus datos personales y cambiar tu clave</b></a></center></li><br>
-				<li><a href="<?=site_url().'/Inicio/cargarMejoras/'?>"><b>Opciones avanzadas y mejoras</b></a></center></li><br>
+				<li><a href="<?=site_url().'/Inicio/cargarVista/opcionales'?>"><b>Opciones avanzadas y mejoras</b></a></center></li><br>
 					<li><a style="color:red;" href="#" data-toggle="modal" data-target="#bcuenta"><b>Darte de baja y cancelar tu cuenta</b></a></center></li><br></ul>
 
 					  <!-- Modal -->

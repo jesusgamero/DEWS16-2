@@ -1,0 +1,1079 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lista>
+ <categoria>
+  <nombre>Frescos</nombre>
+  <descripcion>Aquí están los mejores productos frescos del mercado.</descripcion>
+  <anuncio/>
+  <mostrar>1</mostrar>
+  <producto>
+   <categoria_id>1</categoria_id>
+   <nombre>Hueso de canilla blanco</nombre>
+   <marca></marca>
+   <descripcion>500 gr (2,70 €/Kg.)</descripcion>
+   <descuento/>
+   <anuncio/>
+   <imagen>1.png</imagen>
+   <pvp>1.35</pvp>
+   <iva>10</iva>
+   <stock>20</stock>
+   <mostrar>1</mostrar>
+   <finicio_dest>2017-01-01</finicio_dest>
+   <ffin_dest>2017-03-31</ffin_dest>
+   <destacado>0</destacado>
+   <producto>
+    <categoria_id>1</categoria_id>
+    <nombre>Naranja para zumo</nombre>
+    <marca></marca>
+    <descripcion>Malla de 4 Kg de naranjas</descripcion>
+    <descuento/>
+    <anuncio/>
+    <imagen>2.png</imagen>
+    <pvp>3.39</pvp>
+    <iva>10</iva>
+    <stock>10</stock>
+    <mostrar>1</mostrar>
+    <finicio_dest>2016-12-01</finicio_dest>
+    <ffin_dest>2017-02-16</ffin_dest>
+    <destacado>1</destacado>
+    <producto>
+     <categoria_id>1</categoria_id>
+     <nombre>Lechuga Iceberg</nombre>
+     <marca></marca>
+     <descripcion>Pieza 1 ud (0,99 €/Kg.)</descripcion>
+     <descuento/>
+     <anuncio/>
+     <imagen>3.png</imagen>
+     <pvp>0.99</pvp>
+     <iva>10</iva>
+     <stock>10</stock>
+     <mostrar>1</mostrar>
+     <finicio_dest>2016-12-01</finicio_dest>
+     <ffin_dest>2017-02-16</ffin_dest>
+     <destacado>1</destacado>
+     <producto>
+      <categoria_id>1</categoria_id>
+      <nombre>Manzana granny</nombre>
+      <marca></marca>
+      <descripcion>unidad (275 gr aprox.) (1,59 €/Kg.)</descripcion>
+      <descuento/>
+      <anuncio/>
+      <imagen>4.png</imagen>
+      <pvp>0.44</pvp>
+      <iva>10</iva>
+      <stock>50</stock>
+      <mostrar>1</mostrar>
+      <finicio_dest>2017-01-01</finicio_dest>
+      <ffin_dest>2017-02-28</ffin_dest>
+      <destacado>1</destacado>
+      <producto>
+       <categoria_id>1</categoria_id>
+       <nombre>Solomillo de cerdo</nombre>
+       <marca></marca>
+       <descripcion>(peso aprox. 585 gr) (7,85 €/Kg.)</descripcion>
+       <descuento/>
+       <anuncio/>
+       <imagen>5.png</imagen>
+       <pvp>4.59</pvp>
+       <iva>10</iva>
+       <stock>20</stock>
+       <mostrar>1</mostrar>
+       <finicio_dest>2017-01-03</finicio_dest>
+       <ffin_dest>2017-02-16</ffin_dest>
+       <destacado>1</destacado>
+       <producto>
+        <categoria_id>1</categoria_id>
+        <nombre>Roler - Hamburguesa de vacuno</nombre>
+        <marca></marca>
+        <descripcion>Bandeja 4 uds. (6,25 €/Kg.)</descripcion>
+        <descuento/>
+        <anuncio/>
+        <imagen>6.png</imagen>
+        <pvp>2.00</pvp>
+        <iva>10</iva>
+        <stock>10</stock>
+        <mostrar>1</mostrar>
+        <finicio_dest>2017-01-01</finicio_dest>
+        <ffin_dest>2017-03-31</ffin_dest>
+        <destacado>1</destacado>
+        <producto>
+         <categoria_id>1</categoria_id>
+         <nombre>Limones malla 1 Kg</nombre>
+         <marca></marca>
+         <descripcion>(1,29 €/ud.)</descripcion>
+         <descuento/>
+         <anuncio/>
+         <imagen>7.png</imagen>
+         <pvp>1.29</pvp>
+         <iva>10</iva>
+         <stock>5</stock>
+         <mostrar>1</mostrar>
+         <finicio_dest>2017-01-01</finicio_dest>
+         <ffin_dest>2017-03-30</ffin_dest>
+         <destacado>1</destacado>
+         <producto>
+          <categoria_id>1</categoria_id>
+          <nombre>Coliflor ud</nombre>
+          <marca></marca>
+          <descripcion>(2,09 €/ud.)</descripcion>
+          <descuento/>
+          <anuncio/>
+          <imagen>8.png</imagen>
+          <pvp>2.09</pvp>
+          <iva>10</iva>
+          <stock>10</stock>
+          <mostrar>1</mostrar>
+          <finicio_dest>2017-01-10</finicio_dest>
+          <ffin_dest>2017-03-24</ffin_dest>
+          <destacado>1</destacado>
+          <producto>
+           <categoria_id>1</categoria_id>
+           <nombre>Banana</nombre>
+           <marca></marca>
+           <descripcion>Unidad (220 gr aprox.) (1,29 €/Kg.)</descripcion>
+           <descuento/>
+           <anuncio/>
+           <imagen>9.png</imagen>
+           <pvp>0.28</pvp>
+           <iva>10</iva>
+           <stock>30</stock>
+           <mostrar>1</mostrar>
+           <finicio_dest>2017-01-01</finicio_dest>
+           <ffin_dest>2017-04-30</ffin_dest>
+           <destacado>0</destacado>
+           <producto>
+            <categoria_id>1</categoria_id>
+            <nombre>Tomate pera</nombre>
+            <marca></marca>
+            <descripcion>unidad (140 gr aprox.) (1,99 €/Kg.)</descripcion>
+            <descuento/>
+            <anuncio/>
+            <imagen>10.png</imagen>
+            <pvp>0.28</pvp>
+            <iva>10</iva>
+            <stock>50</stock>
+            <mostrar>1</mostrar>
+            <finicio_dest>2017-01-01</finicio_dest>
+            <ffin_dest>2017-02-28</ffin_dest>
+            <destacado>1</destacado>
+            <producto>
+             <categoria_id>1</categoria_id>
+             <nombre>Pimiento italiano</nombre>
+             <marca></marca>
+             <descripcion>Malla 500 gr (2,38 €/Kg.)</descripcion>
+             <descuento/>
+             <anuncio/>
+             <imagen>11.png</imagen>
+             <pvp>1.00</pvp>
+             <iva>10</iva>
+             <stock>23</stock>
+             <mostrar>1</mostrar>
+             <finicio_dest>2017-01-01</finicio_dest>
+             <ffin_dest>2017-03-31</ffin_dest>
+             <destacado>0</destacado>
+             <producto>
+              <categoria_id>1</categoria_id>
+              <nombre>Kiwi unidad (105 gr aprox.)</nombre>
+              <marca></marca>
+              <descripcion>(2,65 €/Kg.)</descripcion>
+              <descuento/>
+              <anuncio/>
+              <imagen>12.png</imagen>
+              <pvp>0.28</pvp>
+              <iva>10</iva>
+              <stock>34</stock>
+              <mostrar>1</mostrar>
+              <finicio_dest>2017-01-01</finicio_dest>
+              <ffin_dest>2017-03-31</ffin_dest>
+              <destacado>1</destacado>
+              <producto>
+               <categoria_id>1</categoria_id>
+               <nombre>Pollo limpio</nombre>
+               <marca></marca>
+               <descripcion>Unidad (peso aprox. 2065 gr)</descripcion>
+               <descuento/>
+               <anuncio/>
+               <imagen>13.png</imagen>
+               <pvp>7.33</pvp>
+               <iva>10</iva>
+               <stock>30</stock>
+               <mostrar>1</mostrar>
+               <finicio_dest>2017-01-01</finicio_dest>
+               <ffin_dest>2017-03-31</ffin_dest>
+               <destacado>1</destacado>
+               <producto>
+                <categoria_id>1</categoria_id>
+                <nombre>Pechugas enteras de pollo</nombre>
+                <marca></marca>
+                <descripcion>Bandeja de pechuga (6,30 €/Kg.)</descripcion>
+                <descuento/>
+                <anuncio/>
+                <imagen>14.jpg</imagen>
+                <pvp>4.28</pvp>
+                <iva>10</iva>
+                <stock>25</stock>
+                <mostrar>1</mostrar>
+                <finicio_dest>2017-01-01</finicio_dest>
+                <ffin_dest>2017-03-31</ffin_dest>
+                <destacado>1</destacado>
+                <producto>
+                 <categoria_id>1</categoria_id>
+                 <nombre>Pimiento rojo malla 500 gr</nombre>
+                 <marca></marca>
+                 <descripcion>(1,98 €/Kg.)</descripcion>
+                 <descuento/>
+                 <anuncio/>
+                 <imagen>15.png</imagen>
+                 <pvp>0.99</pvp>
+                 <iva>10</iva>
+                 <stock>33</stock>
+                 <mostrar>1</mostrar>
+                 <finicio_dest>2017-01-01</finicio_dest>
+                 <ffin_dest>2017-02-28</ffin_dest>
+                 <destacado>1</destacado>
+                </producto>
+                <categoria>
+                 <nombre>Charcutería y quesos</nombre>
+                 <descripcion>Todo tipo de quesos y la mejor charcutería.</descripcion>
+                 <anuncio/>
+                 <mostrar>1</mostrar>
+                 <producto>
+                  <categoria_id>2</categoria_id>
+                  <nombre>DIA salchichas Baviera</nombre>
+                  <marca></marca>
+                  <descripcion>Envase 300 g</descripcion>
+                  <descuento/>
+                  <anuncio/>
+                  <imagen>27.png</imagen>
+                  <pvp>1.40</pvp>
+                  <iva>10</iva>
+                  <stock>12</stock>
+                  <mostrar>1</mostrar>
+                  <finicio_dest/>
+                  <ffin_dest/>
+                  <destacado>0</destacado>
+                  <producto>
+                   <categoria_id>2</categoria_id>
+                   <nombre>DIA jamón serrano</nombre>
+                   <marca></marca>
+                   <descripcion>Lonchas sobre 200 g</descripcion>
+                   <descuento/>
+                   <anuncio/>
+                   <imagen>28.png</imagen>
+                   <pvp>2.93</pvp>
+                   <iva>10</iva>
+                   <stock>23</stock>
+                   <mostrar>1</mostrar>
+                   <finicio_dest/>
+                   <ffin_dest/>
+                   <destacado>0</destacado>
+                   <producto>
+                    <categoria_id>2</categoria_id>
+                    <nombre>DIA salami extra</nombre>
+                    <marca></marca>
+                    <descripcion>Sobre 225 g</descripcion>
+                    <descuento/>
+                    <anuncio/>
+                    <imagen>29.png</imagen>
+                    <pvp>1.25</pvp>
+                    <iva>10</iva>
+                    <stock>15</stock>
+                    <mostrar>1</mostrar>
+                    <finicio_dest/>
+                    <ffin_dest/>
+                    <destacado>0</destacado>
+                    <producto>
+                     <categoria_id>2</categoria_id>
+                     <nombre>DIA salchichas cocktail</nombre>
+                     <marca></marca>
+                     <descripcion>Tarro 180 gr</descripcion>
+                     <descuento/>
+                     <anuncio/>
+                     <imagen>30.png</imagen>
+                     <pvp>1.79</pvp>
+                     <iva>10</iva>
+                     <stock>15</stock>
+                     <mostrar>1</mostrar>
+                     <finicio_dest/>
+                     <ffin_dest/>
+                     <destacado>0</destacado>
+                     <producto>
+                      <categoria_id>2</categoria_id>
+                      <nombre>DIA queso tierno</nombre>
+                      <marca></marca>
+                      <descripcion>Pieza 1kg</descripcion>
+                      <descuento/>
+                      <anuncio/>
+                      <imagen>31.png</imagen>
+                      <pvp>6.54</pvp>
+                      <iva>10</iva>
+                      <stock>13</stock>
+                      <mostrar>1</mostrar>
+                      <finicio_dest/>
+                      <ffin_dest/>
+                      <destacado>0</destacado>
+                      <producto>
+                       <categoria_id>2</categoria_id>
+                       <nombre>DIA paleta de york</nombre>
+                       <marca></marca>
+                       <descripcion>Envase 1 kg</descripcion>
+                       <descuento/>
+                       <anuncio/>
+                       <imagen>32.png</imagen>
+                       <pvp>2.99</pvp>
+                       <iva>10</iva>
+                       <stock>12</stock>
+                       <mostrar>1</mostrar>
+                       <finicio_dest/>
+                       <ffin_dest/>
+                       <destacado>0</destacado>
+                       <producto>
+                        <categoria_id>2</categoria_id>
+                        <nombre>APIS pate higado cerdo</nombre>
+                        <marca></marca>
+                        <descripcion>Lata 200GR</descripcion>
+                        <descuento/>
+                        <anuncio/>
+                        <imagen>33.jpg</imagen>
+                        <pvp>1.22</pvp>
+                        <iva>10</iva>
+                        <stock>11</stock>
+                        <mostrar>1</mostrar>
+                        <finicio_dest/>
+                        <ffin_dest/>
+                        <destacado>0</destacado>
+                        <producto>
+                         <categoria_id>2</categoria_id>
+                         <nombre>PRESIDENT crema de queso camembert</nombre>
+                         <marca></marca>
+                         <descripcion>Tarrina 125 gr</descripcion>
+                         <descuento/>
+                         <anuncio/>
+                         <imagen>34.jpg</imagen>
+                         <pvp>1.65</pvp>
+                         <iva>10</iva>
+                         <stock>23</stock>
+                         <mostrar>1</mostrar>
+                         <finicio_dest/>
+                         <ffin_dest/>
+                         <destacado>0</destacado>
+                         <producto>
+                          <categoria_id>2</categoria_id>
+                          <nombre>ELPOZO mortadela de pavo</nombre>
+                          <marca></marca>
+                          <descripcion>En lonchas envase 250 gr</descripcion>
+                          <descuento/>
+                          <anuncio/>
+                          <imagen>35.jpg</imagen>
+                          <pvp>1.50</pvp>
+                          <iva>10</iva>
+                          <stock>12</stock>
+                          <mostrar>1</mostrar>
+                          <finicio_dest/>
+                          <ffin_dest/>
+                          <destacado>0</destacado>
+                          <producto>
+                           <categoria_id>2</categoria_id>
+                           <nombre>FLOR DE ESGUEVA queso de oveja</nombre>
+                           <marca></marca>
+                           <descripcion>Queso de oveja viejo</descripcion>
+                           <descuento/>
+                           <anuncio/>
+                           <imagen>36.png</imagen>
+                           <pvp>4.34</pvp>
+                           <iva>10</iva>
+                           <stock>13</stock>
+                           <mostrar>1</mostrar>
+                           <finicio_dest/>
+                           <ffin_dest/>
+                           <destacado>0</destacado>
+                          </producto>
+                          <categoria>
+                           <nombre>Lácteos y huevos </nombre>
+                           <descripcion>Los productos lácteos al mejor precio.</descripcion>
+                           <anuncio/>
+                           <mostrar>1</mostrar>
+                           <producto>
+                            <categoria_id>3</categoria_id>
+                            <nombre>Danone Vitalinea</nombre>
+                            <marca></marca>
+                            <descripcion>Yogur natural desnatado pack 4 ud</descripcion>
+                            <descuento/>
+                            <anuncio/>
+                            <imagen>17.jpg</imagen>
+                            <pvp>1.00</pvp>
+                            <iva>10</iva>
+                            <stock>23</stock>
+                            <mostrar>1</mostrar>
+                            <finicio_dest>2017-01-01</finicio_dest>
+                            <ffin_dest>2017-03-31</ffin_dest>
+                            <destacado>1</destacado>
+                            <producto>
+                             <categoria_id>3</categoria_id>
+                             <nombre>Dia leche semidesnatada calcio</nombre>
+                             <marca></marca>
+                             <descripcion>Envase 1l semidesnatada calcio</descripcion>
+                             <descuento/>
+                             <anuncio/>
+                             <imagen>18.png</imagen>
+                             <pvp>0.71</pvp>
+                             <iva>10</iva>
+                             <stock>35</stock>
+                             <mostrar>1</mostrar>
+                             <finicio_dest>2017-01-01</finicio_dest>
+                             <ffin_dest>2017-02-28</ffin_dest>
+                             <destacado>1</destacado>
+                             <producto>
+                              <categoria_id>3</categoria_id>
+                              <nombre>DANONE ACTIMEL</nombre>
+                              <marca></marca>
+                              <descripcion>Yogur líquido natural 0% pack 6 uds 100 g</descripcion>
+                              <descuento/>
+                              <anuncio/>
+                              <imagen>19.jpg</imagen>
+                              <pvp>2.99</pvp>
+                              <iva>10</iva>
+                              <stock>20</stock>
+                              <mostrar>1</mostrar>
+                              <finicio_dest>2017-01-01</finicio_dest>
+                              <ffin_dest>2017-02-28</ffin_dest>
+                              <destacado>1</destacado>
+                              <producto>
+                               <categoria_id>3</categoria_id>
+                               <nombre>DANONE DANONINO</nombre>
+                               <marca></marca>
+                               <descripcion>petit suisse fresa pack 6 unidades 50 gr</descripcion>
+                               <descuento/>
+                               <anuncio/>
+                               <imagen>20.jpg</imagen>
+                               <pvp>1.00</pvp>
+                               <iva>10</iva>
+                               <stock>12</stock>
+                               <mostrar>1</mostrar>
+                               <finicio_dest>2017-01-01</finicio_dest>
+                               <ffin_dest>2017-03-31</ffin_dest>
+                               <destacado>1</destacado>
+                               <producto>
+                                <categoria_id>3</categoria_id>
+                                <nombre>DANONE flan de huevo</nombre>
+                                <marca></marca>
+                                <descripcion>Pack de 6 unidades</descripcion>
+                                <descuento/>
+                                <anuncio/>
+                                <imagen>21.jpg</imagen>
+                                <pvp>1.55</pvp>
+                                <iva>10</iva>
+                                <stock>12</stock>
+                                <mostrar>1</mostrar>
+                                <finicio_dest>2017-01-01</finicio_dest>
+                                <ffin_dest>2017-03-31</ffin_dest>
+                                <destacado>1</destacado>
+                                <producto>
+                                 <categoria_id>3</categoria_id>
+                                 <nombre>REINA natillas con galleta</nombre>
+                                 <marca></marca>
+                                 <descripcion>Pack 4 unidades 125 g</descripcion>
+                                 <descuento/>
+                                 <anuncio/>
+                                 <imagen>22.png</imagen>
+                                 <pvp>1.15</pvp>
+                                 <iva>10</iva>
+                                 <stock>14</stock>
+                                 <mostrar>1</mostrar>
+                                 <finicio_dest/>
+                                 <ffin_dest/>
+                                 <destacado>1</destacado>
+                                 <producto>
+                                  <categoria_id>3</categoria_id>
+                                  <nombre>LA RECETA huevos frescos</nombre>
+                                  <marca></marca>
+                                  <descripcion>Categoria A clase L estuche 12 uds</descripcion>
+                                  <descuento/>
+                                  <anuncio/>
+                                  <imagen>23.png</imagen>
+                                  <pvp>1.35</pvp>
+                                  <iva>10</iva>
+                                  <stock>12</stock>
+                                  <mostrar>1</mostrar>
+                                  <finicio_dest/>
+                                  <ffin_dest/>
+                                  <destacado>0</destacado>
+                                  <producto>
+                                   <categoria_id>3</categoria_id>
+                                   <nombre>DIA nata para cocinar</nombre>
+                                   <marca></marca>
+                                   <descripcion>Envase 500 ml</descripcion>
+                                   <descuento/>
+                                   <anuncio/>
+                                   <imagen>24.png</imagen>
+                                   <pvp>1.07</pvp>
+                                   <iva>10</iva>
+                                   <stock>12</stock>
+                                   <mostrar>1</mostrar>
+                                   <finicio_dest/>
+                                   <ffin_dest/>
+                                   <destacado>1</destacado>
+                                   <producto>
+                                    <categoria_id>3</categoria_id>
+                                    <nombre>DIA batido chocolate</nombre>
+                                    <marca></marca>
+                                    <descripcion>Botella 1 lt</descripcion>
+                                    <descuento/>
+                                    <anuncio/>
+                                    <imagen>25.png</imagen>
+                                    <pvp>0.85</pvp>
+                                    <iva>10</iva>
+                                    <stock>23</stock>
+                                    <mostrar>1</mostrar>
+                                    <finicio_dest/>
+                                    <ffin_dest/>
+                                    <destacado>1</destacado>
+                                    <producto>
+                                     <categoria_id>3</categoria_id>
+                                     <nombre>TULIPÁN margarina</nombre>
+                                     <marca></marca>
+                                     <descripcion>Barqueta 500 g</descripcion>
+                                     <descuento/>
+                                     <anuncio/>
+                                     <imagen>26.jpg</imagen>
+                                     <pvp>1.65</pvp>
+                                     <iva>10</iva>
+                                     <stock>13</stock>
+                                     <mostrar>1</mostrar>
+                                     <finicio_dest/>
+                                     <ffin_dest/>
+                                     <destacado>0</destacado>
+                                    </producto>
+                                    <categoria>
+                                     <nombre>Bebidas</nombre>
+                                     <descripcion>Refréscate con todas las bebidas disponibles.</descripcion>
+                                     <anuncio/>
+                                     <mostrar>1</mostrar>
+                                     <producto>
+                                      <categoria_id>4</categoria_id>
+                                      <nombre>SAN MIGUEL cerveza rubia nacional</nombre>
+                                      <marca></marca>
+                                      <descripcion>Pack 6 botellas 25 cl</descripcion>
+                                      <descuento/>
+                                      <anuncio/>
+                                      <imagen>37.jpg</imagen>
+                                      <pvp>2.65</pvp>
+                                      <iva>10</iva>
+                                      <stock>13</stock>
+                                      <mostrar>1</mostrar>
+                                      <finicio_dest/>
+                                      <ffin_dest/>
+                                      <destacado>0</destacado>
+                                      <producto>
+                                       <categoria_id>4</categoria_id>
+                                       <nombre>DIA cerveza rubia especial</nombre>
+                                       <marca></marca>
+                                       <descripcion>Pack 6 botellas 33 cl</descripcion>
+                                       <descuento/>
+                                       <anuncio/>
+                                       <imagen>38.png</imagen>
+                                       <pvp>1.99</pvp>
+                                       <iva>10</iva>
+                                       <stock>15</stock>
+                                       <mostrar>1</mostrar>
+                                       <finicio_dest/>
+                                       <ffin_dest/>
+                                       <destacado>0</destacado>
+                                       <producto>
+                                        <categoria_id>4</categoria_id>
+                                        <nombre>DIA refresco de cola light</nombre>
+                                        <marca></marca>
+                                        <descripcion>Botella 2 lt</descripcion>
+                                        <descuento/>
+                                        <anuncio/>
+                                        <imagen>39.png</imagen>
+                                        <pvp>0.82</pvp>
+                                        <iva>10</iva>
+                                        <stock>50</stock>
+                                        <mostrar>1</mostrar>
+                                        <finicio_dest/>
+                                        <ffin_dest/>
+                                        <destacado>0</destacado>
+                                        <producto>
+                                         <categoria_id>4</categoria_id>
+                                         <nombre>DIA néctar light naranja</nombre>
+                                         <marca></marca>
+                                         <descripcion>Envase 2 lt</descripcion>
+                                         <descuento/>
+                                         <anuncio/>
+                                         <imagen>40.png</imagen>
+                                         <pvp>1.05</pvp>
+                                         <iva>10</iva>
+                                         <stock>15</stock>
+                                         <mostrar>1</mostrar>
+                                         <finicio_dest/>
+                                         <ffin_dest/>
+                                         <destacado>0</destacado>
+                                         <producto>
+                                          <categoria_id>4</categoria_id>
+                                          <nombre>DIA agua mineral natural</nombre>
+                                          <marca></marca>
+                                          <descripcion>Botella 5 l</descripcion>
+                                          <descuento/>
+                                          <anuncio/>
+                                          <imagen>41.png</imagen>
+                                          <pvp>0.45</pvp>
+                                          <iva>10</iva>
+                                          <stock>15</stock>
+                                          <mostrar>1</mostrar>
+                                          <finicio_dest/>
+                                          <ffin_dest/>
+                                          <destacado>0</destacado>
+                                          <producto>
+                                           <categoria_id>4</categoria_id>
+                                           <nombre>AMBAR cerveza rubia nacional</nombre>
+                                           <marca></marca>
+                                           <descripcion>Pack 6 unidades</descripcion>
+                                           <descuento/>
+                                           <anuncio/>
+                                           <imagen>42.png</imagen>
+                                           <pvp>5.50</pvp>
+                                           <iva>10</iva>
+                                           <stock>19</stock>
+                                           <mostrar>1</mostrar>
+                                           <finicio_dest/>
+                                           <ffin_dest/>
+                                           <destacado>0</destacado>
+                                           <producto>
+                                            <categoria_id>4</categoria_id>
+                                            <nombre>AQUARIUS bebida refrescante</nombre>
+                                            <marca></marca>
+                                            <descripcion>Limón pack 9 latas 33 cl</descripcion>
+                                            <descuento/>
+                                            <anuncio/>
+                                            <imagen>43.jpg</imagen>
+                                            <pvp>5.58</pvp>
+                                            <iva>10</iva>
+                                            <stock>15</stock>
+                                            <mostrar>1</mostrar>
+                                            <finicio_dest/>
+                                            <ffin_dest/>
+                                            <destacado>0</destacado>
+                                            <producto>
+                                             <categoria_id>4</categoria_id>
+                                             <nombre>COCA COLA zero pack</nombre>
+                                             <marca></marca>
+                                             <descripcion>Pack 12 latas 33 cl</descripcion>
+                                             <descuento/>
+                                             <anuncio/>
+                                             <imagen>44.jpg</imagen>
+                                             <pvp>6.84</pvp>
+                                             <iva>10</iva>
+                                             <stock>16</stock>
+                                             <mostrar>1</mostrar>
+                                             <finicio_dest/>
+                                             <ffin_dest/>
+                                             <destacado>0</destacado>
+                                             <producto>
+                                              <categoria_id>4</categoria_id>
+                                              <nombre>DIA bebida energética light</nombre>
+                                              <marca></marca>
+                                              <descripcion>Lata 25 cl</descripcion>
+                                              <descuento/>
+                                              <anuncio/>
+                                              <imagen>45.png</imagen>
+                                              <pvp>0.37</pvp>
+                                              <iva>10</iva>
+                                              <stock>67</stock>
+                                              <mostrar>1</mostrar>
+                                              <finicio_dest/>
+                                              <ffin_dest/>
+                                              <destacado>0</destacado>
+                                              <producto>
+                                               <categoria_id>4</categoria_id>
+                                               <nombre>DIA néctar light piña</nombre>
+                                               <marca></marca>
+                                               <descripcion>Pack 6 unidades 200 ml</descripcion>
+                                               <descuento/>
+                                               <anuncio/>
+                                               <imagen>46.png</imagen>
+                                               <pvp>1.16</pvp>
+                                               <iva>10</iva>
+                                               <stock>23</stock>
+                                               <mostrar>1</mostrar>
+                                               <finicio_dest/>
+                                               <ffin_dest/>
+                                               <destacado>0</destacado>
+                                              </producto>
+                                              <categoria>
+                                               <nombre>Desayunos, Dulces y Pan</nombre>
+                                               <descripcion>Los mejores productos para disfrutar del mejor desayuno.</descripcion>
+                                               <anuncio/>
+                                               <mostrar>1</mostrar>
+                                               <producto>
+                                                <categoria_id>5</categoria_id>
+                                                <nombre>ColaCao soluble</nombre>
+                                                <marca></marca>
+                                                <descripcion>Caja 3 Kg</descripcion>
+                                                <descuento/>
+                                                <anuncio/>
+                                                <imagen>47.jpg</imagen>
+                                                <pvp>13.95</pvp>
+                                                <iva>10</iva>
+                                                <stock>23</stock>
+                                                <mostrar>1</mostrar>
+                                                <finicio_dest/>
+                                                <ffin_dest/>
+                                                <destacado>1</destacado>
+                                                <producto>
+                                                 <categoria_id>5</categoria_id>
+                                                 <nombre>DIA VITAL pan tostado integral</nombre>
+                                                 <marca></marca>
+                                                 <descripcion>Paquete 270 gr</descripcion>
+                                                 <descuento/>
+                                                 <anuncio/>
+                                                 <imagen>48.png</imagen>
+                                                 <pvp>0.78</pvp>
+                                                 <iva>10</iva>
+                                                 <stock>24</stock>
+                                                 <mostrar>1</mostrar>
+                                                 <finicio_dest/>
+                                                 <ffin_dest/>
+                                                 <destacado>0</destacado>
+                                                 <producto>
+                                                  <categoria_id>5</categoria_id>
+                                                  <nombre>DONUTS fondant 2 unidades</nombre>
+                                                  <marca></marca>
+                                                  <descripcion>Estuche 102 gr</descripcion>
+                                                  <descuento/>
+                                                  <anuncio/>
+                                                  <imagen>49.jpg</imagen>
+                                                  <pvp>1.39</pvp>
+                                                  <iva>10</iva>
+                                                  <stock>16</stock>
+                                                  <mostrar>1</mostrar>
+                                                  <finicio_dest/>
+                                                  <ffin_dest/>
+                                                  <destacado>0</destacado>
+                                                  <producto>
+                                                   <categoria_id>5</categoria_id>
+                                                   <nombre>DIA cereales rellenos de chocolate</nombre>
+                                                   <marca></marca>
+                                                   <descripcion>Caja 500 gr</descripcion>
+                                                   <descuento/>
+                                                   <anuncio/>
+                                                   <imagen>50.jpg</imagen>
+                                                   <pvp>1.89</pvp>
+                                                   <iva>10</iva>
+                                                   <stock>29</stock>
+                                                   <mostrar>1</mostrar>
+                                                   <finicio_dest/>
+                                                   <ffin_dest/>
+                                                   <destacado>0</destacado>
+                                                   <producto>
+                                                    <categoria_id>5</categoria_id>
+                                                    <nombre>Galletas de mantequilla</nombre>
+                                                    <marca></marca>
+                                                    <descripcion>Lata 500 gr</descripcion>
+                                                    <descuento/>
+                                                    <anuncio/>
+                                                    <imagen>51.PNG</imagen>
+                                                    <pvp>2.57</pvp>
+                                                    <iva>10</iva>
+                                                    <stock>25</stock>
+                                                    <mostrar>1</mostrar>
+                                                    <finicio_dest/>
+                                                    <ffin_dest/>
+                                                    <destacado>0</destacado>
+                                                    <producto>
+                                                     <categoria_id>5</categoria_id>
+                                                     <nombre>DIA cacao instantaneo</nombre>
+                                                     <marca></marca>
+                                                     <descripcion>Bote 800 gr</descripcion>
+                                                     <descuento/>
+                                                     <anuncio/>
+                                                     <imagen>52.jpg</imagen>
+                                                     <pvp>2.69</pvp>
+                                                     <iva>10</iva>
+                                                     <stock>35</stock>
+                                                     <mostrar>1</mostrar>
+                                                     <finicio_dest/>
+                                                     <ffin_dest/>
+                                                     <destacado>0</destacado>
+                                                     <producto>
+                                                      <categoria_id>5</categoria_id>
+                                                      <nombre>DIA cereales rellenos de leche</nombre>
+                                                      <marca></marca>
+                                                      <descripcion>Paquete 500 gr</descripcion>
+                                                      <descuento/>
+                                                      <anuncio/>
+                                                      <imagen>53.png</imagen>
+                                                      <pvp>1.70</pvp>
+                                                      <iva>10</iva>
+                                                      <stock>31</stock>
+                                                      <mostrar>1</mostrar>
+                                                      <finicio_dest/>
+                                                      <ffin_dest/>
+                                                      <destacado>0</destacado>
+                                                      <producto>
+                                                       <categoria_id>5</categoria_id>
+                                                       <nombre>NOCILLA almendras</nombre>
+                                                       <marca></marca>
+                                                       <descripcion>Vaso 190 gr</descripcion>
+                                                       <descuento/>
+                                                       <anuncio/>
+                                                       <imagen>54.png</imagen>
+                                                       <pvp>1.99</pvp>
+                                                       <iva>10</iva>
+                                                       <stock>34</stock>
+                                                       <mostrar>1</mostrar>
+                                                       <finicio_dest/>
+                                                       <ffin_dest/>
+                                                       <destacado>0</destacado>
+                                                       <producto>
+                                                        <categoria_id>5</categoria_id>
+                                                        <nombre>NESCAFE café soluble descafeinado </nombre>
+                                                        <marca></marca>
+                                                        <descripcion>Frasco 100 gr</descripcion>
+                                                        <descuento/>
+                                                        <anuncio/>
+                                                        <imagen>55.jpg</imagen>
+                                                        <pvp>3.97</pvp>
+                                                        <iva>10</iva>
+                                                        <stock>35</stock>
+                                                        <mostrar>1</mostrar>
+                                                        <finicio_dest/>
+                                                        <ffin_dest/>
+                                                        <destacado>0</destacado>
+                                                        <producto>
+                                                         <categoria_id>5</categoria_id>
+                                                         <nombre>ARTIACH Marbú dorada</nombre>
+                                                         <marca></marca>
+                                                         <descripcion>Caja 1 Kg</descripcion>
+                                                         <descuento/>
+                                                         <anuncio/>
+                                                         <imagen>56.png</imagen>
+                                                         <pvp>2.85</pvp>
+                                                         <iva>10</iva>
+                                                         <stock>31</stock>
+                                                         <mostrar>1</mostrar>
+                                                         <finicio_dest/>
+                                                         <ffin_dest/>
+                                                         <destacado>0</destacado>
+                                                        </producto>
+                                                        <categoria>
+                                                         <nombre>Congelados</nombre>
+                                                         <descripcion>Aquí encontrarás todos productos congelados del mercado.</descripcion>
+                                                         <anuncio/>
+                                                         <mostrar>1</mostrar>
+                                                         <producto>
+                                                          <categoria_id>6</categoria_id>
+                                                          <nombre>Anillas de calamar </nombre>
+                                                          <marca></marca>
+                                                          <descripcion>A la romana Bolsa 500 gr</descripcion>
+                                                          <descuento/>
+                                                          <anuncio/>
+                                                          <imagen>57.png</imagen>
+                                                          <pvp>2.70</pvp>
+                                                          <iva>10</iva>
+                                                          <stock>15</stock>
+                                                          <mostrar>1</mostrar>
+                                                          <finicio_dest>2017-01-01</finicio_dest>
+                                                          <ffin_dest>2017-03-31</ffin_dest>
+                                                          <destacado>1</destacado>
+                                                          <producto>
+                                                           <categoria_id>6</categoria_id>
+                                                           <nombre>FINDUS Salto arroz 3 delicias</nombre>
+                                                           <marca></marca>
+                                                           <descripcion>3 delicias tradicional Bolsa 500 gr</descripcion>
+                                                           <descuento/>
+                                                           <anuncio/>
+                                                           <imagen>58.jpg</imagen>
+                                                           <pvp>2.45</pvp>
+                                                           <iva>10</iva>
+                                                           <stock>15</stock>
+                                                           <mostrar>1</mostrar>
+                                                           <finicio_dest/>
+                                                           <ffin_dest/>
+                                                           <destacado>0</destacado>
+                                                           <producto>
+                                                            <categoria_id>6</categoria_id>
+                                                            <nombre>DIA canelones de atún</nombre>
+                                                            <marca></marca>
+                                                            <descripcion>Caja 600 gr</descripcion>
+                                                            <descuento/>
+                                                            <anuncio/>
+                                                            <imagen>59.png</imagen>
+                                                            <pvp>2.19</pvp>
+                                                            <iva>10</iva>
+                                                            <stock>15</stock>
+                                                            <mostrar>1</mostrar>
+                                                            <finicio_dest>2017-01-01</finicio_dest>
+                                                            <ffin_dest>2017-03-31</ffin_dest>
+                                                            <destacado>1</destacado>
+                                                            <producto>
+                                                             <categoria_id>6</categoria_id>
+                                                             <nombre>LA GULA DEL NORTE gula</nombre>
+                                                             <marca></marca>
+                                                             <descripcion>Bandeja 200 gr</descripcion>
+                                                             <descuento/>
+                                                             <anuncio/>
+                                                             <imagen>60.png</imagen>
+                                                             <pvp>4.95</pvp>
+                                                             <iva>10</iva>
+                                                             <stock>15</stock>
+                                                             <mostrar>1</mostrar>
+                                                             <finicio_dest/>
+                                                             <ffin_dest/>
+                                                             <destacado>0</destacado>
+                                                             <producto>
+                                                              <categoria_id>6</categoria_id>
+                                                              <nombre>DIA croquetas de pollo</nombre>
+                                                              <marca></marca>
+                                                              <descripcion>Bolsa 500 gr</descripcion>
+                                                              <descuento/>
+                                                              <anuncio/>
+                                                              <imagen>61.jpg</imagen>
+                                                              <pvp>0.99</pvp>
+                                                              <iva>10</iva>
+                                                              <stock>23</stock>
+                                                              <mostrar>1</mostrar>
+                                                              <finicio_dest/>
+                                                              <ffin_dest/>
+                                                              <destacado>0</destacado>
+                                                              <producto>
+                                                               <categoria_id>6</categoria_id>
+                                                               <nombre>DIA menestra especial</nombre>
+                                                               <marca></marca>
+                                                               <descripcion>Bolsa 600 gr</descripcion>
+                                                               <descuento/>
+                                                               <anuncio/>
+                                                               <imagen>62.png</imagen>
+                                                               <pvp>1.20</pvp>
+                                                               <iva>10</iva>
+                                                               <stock>17</stock>
+                                                               <mostrar>1</mostrar>
+                                                               <finicio_dest/>
+                                                               <ffin_dest/>
+                                                               <destacado>0</destacado>
+                                                               <producto>
+                                                                <categoria_id>6</categoria_id>
+                                                                <nombre>DIA fingers de pollo</nombre>
+                                                                <marca></marca>
+                                                                <descripcion>Bolsa 400 gr</descripcion>
+                                                                <descuento/>
+                                                                <anuncio/>
+                                                                <imagen>63.png</imagen>
+                                                                <pvp>2.95</pvp>
+                                                                <iva>10</iva>
+                                                                <stock>23</stock>
+                                                                <mostrar>1</mostrar>
+                                                                <finicio_dest/>
+                                                                <ffin_dest/>
+                                                                <destacado>0</destacado>
+                                                                <producto>
+                                                                 <categoria_id>6</categoria_id>
+                                                                 <nombre>McCain patatas fritas</nombre>
+                                                                 <marca></marca>
+                                                                 <descripcion>Bolsa 600 gr forno julienne</descripcion>
+                                                                 <descuento/>
+                                                                 <anuncio/>
+                                                                 <imagen>64.png</imagen>
+                                                                 <pvp>2.30</pvp>
+                                                                 <iva>10</iva>
+                                                                 <stock>23</stock>
+                                                                 <mostrar>1</mostrar>
+                                                                 <finicio_dest/>
+                                                                 <ffin_dest/>
+                                                                 <destacado>0</destacado>
+                                                                 <producto>
+                                                                  <categoria_id>6</categoria_id>
+                                                                  <nombre>DIA lasaña de carne</nombre>
+                                                                  <marca></marca>
+                                                                  <descripcion>Caja 600 gr</descripcion>
+                                                                  <descuento/>
+                                                                  <anuncio/>
+                                                                  <imagen>65.png</imagen>
+                                                                  <pvp>1.89</pvp>
+                                                                  <iva>10</iva>
+                                                                  <stock>15</stock>
+                                                                  <mostrar>1</mostrar>
+                                                                  <finicio_dest>2017-01-01</finicio_dest>
+                                                                  <ffin_dest>2017-03-31</ffin_dest>
+                                                                  <destacado>1</destacado>
+                                                                  <producto>
+                                                                   <categoria_id>6</categoria_id>
+                                                                   <nombre>DIA helado dulce de leche</nombre>
+                                                                   <marca></marca>
+                                                                   <descripcion>Barqueta 450 gr</descripcion>
+                                                                   <descuento/>
+                                                                   <anuncio/>
+                                                                   <imagen>66.png</imagen>
+                                                                   <pvp>1.99</pvp>
+                                                                   <iva>10</iva>
+                                                                   <stock>23</stock>
+                                                                   <mostrar>1</mostrar>
+                                                                   <finicio_dest/>
+                                                                   <ffin_dest/>
+                                                                   <destacado>0</destacado>
+                                                                  </producto>
+                                                                 </producto>
+                                                                </producto>
+                                                               </producto>
+                                                              </producto>
+                                                             </producto>
+                                                            </producto>
+                                                           </producto>
+                                                          </producto>
+                                                         </producto>
+                                                        </categoria>
+                                                       </producto>
+                                                      </producto>
+                                                     </producto>
+                                                    </producto>
+                                                   </producto>
+                                                  </producto>
+                                                 </producto>
+                                                </producto>
+                                               </producto>
+                                              </categoria>
+                                             </producto>
+                                            </producto>
+                                           </producto>
+                                          </producto>
+                                         </producto>
+                                        </producto>
+                                       </producto>
+                                      </producto>
+                                     </producto>
+                                    </categoria>
+                                   </producto>
+                                  </producto>
+                                 </producto>
+                                </producto>
+                               </producto>
+                              </producto>
+                             </producto>
+                            </producto>
+                           </producto>
+                          </categoria>
+                         </producto>
+                        </producto>
+                       </producto>
+                      </producto>
+                     </producto>
+                    </producto>
+                   </producto>
+                  </producto>
+                 </producto>
+                </categoria>
+               </producto>
+              </producto>
+             </producto>
+            </producto>
+           </producto>
+          </producto>
+         </producto>
+        </producto>
+       </producto>
+      </producto>
+     </producto>
+    </producto>
+   </producto>
+  </producto>
+ </categoria>
+</lista>

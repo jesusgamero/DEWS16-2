@@ -6,19 +6,19 @@
 				<hr>
 				<table class="table table-bordered">
 				<tr>
-				<td align="center"><b>#Refrencia</b></td>
-				<td align="center"><b>Nombre del producto</b></td>
+				<td align="center"><b>#</b></td>
+				<td align="center"><b>Nombre</b></td>
 				<td align="center"><b>Precio</b></td>
 				<td align="center"><b>Unidades</b></td>
 				<td align="center"><b>Detalles</b></td>
 				</tr>
 				<?php foreach ($articulos as $articulo): ?>
 				<tr>
-				<td align="center"><b><?=$articulo->id?></b></td>
-				<td align="center"><?=$this->mproducto->nombreProducto($articulo->producto_id)?></td>
-				<td align="center"><?=$articulo->precio?></td>
-				<td align="center"><?=$articulo->unidades?></td>
-				<td align="center"><?=$articulo->detalle?></td>
+				<td style="vertical-align: middle;" align="center"><b><a href="<?=site_url()."/Inicio/muestraProducto/".$articulo->producto_id?>"><?=$articulo->id?></a></b></td>
+				<td style="vertical-align: middle;" align="center"><b><a href="<?=site_url()."/Inicio/muestraProducto/".$articulo->producto_id?>"><?=strtoupper($this->mproducto->nombreProducto($articulo->producto_id))?></a></b></td>
+				<td style="vertical-align: middle;" align="center"><?=$articulo->precio?></td>
+				<td style="vertical-align: middle;" align="center"><?=$articulo->unidades?></td>
+				<td style="vertical-align: middle;" align="center"><?=$articulo->detalle?></td>
 				</tr>
 				
 				<?php endforeach; ?>

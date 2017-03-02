@@ -113,4 +113,3 @@ class Usuario extends CI_Model
         return true;
     }
 }
-
